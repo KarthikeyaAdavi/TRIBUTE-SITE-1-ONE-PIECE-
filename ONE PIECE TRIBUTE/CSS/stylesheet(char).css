@@ -3,7 +3,9 @@
     padding:0;      
     text-decoration: none;
 }
-
+ul{
+    text-decoration: none;
+}
 /*<-------------------------------------------------------------------------------NAVBAR-MAIN!!!!---------------------------------------------------------------------------------->*/
 /*<--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- >*/
 #LOGO{
@@ -76,36 +78,37 @@ body{
     margin-bottom: 10rem;
 
 }
-/* MAIN PAGE ARTICLE */
-#MAIN-PAGE{
-    overflow-x: hidden;
-    overflow-y:hidden;
-    position:absolute;
+.ARTICLE{
+
+    display:flex;
+    flex-direction: row;
     background-color: #f6f6f6;
     min-width: 500px;
-    margin:5rem 10rem 10rem 10rem;
+    margin:5rem 5rem 10rem 5rem;
     border:dashed 10px red;
     background-color: #FFD020;
     border-radius: 4px;
     box-shadow: 5px 10px 10px black;    
     margin-bottom: 10rem;
-    position:relative;
-}
-
-#MAIN-BODY-BG-IMG1{
-    width:640px;
-    height:360px;
-    display: block;
-    margin: 3rem auto 3rem auto;
-    border: solid 5px red;
 }
 .TEXT{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight:bolder;
-    text-align: center;
-    margin:0 2rem 0 2rem;
+    margin: 3rem 2rem 1rem 1rem;
+    text-align: left;
 }
-/*EOF*/
 
+
+#ARTICLE-IMG {
+    max-width:200px;
+    max-height:750px;
+    display: block;
+    margin: 3rem 1rem 3rem 3rem;
+    box-sizing: border-box;
+    border: solid 5px red;
+    background-color: #000;
+    object-fit: cover;
+    float:left; 
+}
 
