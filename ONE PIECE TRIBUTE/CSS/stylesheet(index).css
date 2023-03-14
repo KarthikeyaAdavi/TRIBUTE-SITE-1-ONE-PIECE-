@@ -77,12 +77,13 @@ body{
 }
 /* MAIN PAGE ARTICLE */
 #MAIN-PAGE{
-    overflow-x: hidden;
-    overflow-y:hidden;
+    object-position: center;
+    max-width: 800px;
+    max-height: 2700px;
     position:absolute;
     background-color: #f6f6f6;
     min-width: 500px;
-    margin:5rem 10rem 10rem 10rem;
+    margin:5rem auto 10rem auto;
     border:solid 5px rgb(255, 89, 89);
     background-color: palegoldenrod;
     border-radius: 4px;
@@ -110,6 +111,14 @@ body{
     margin:30px 0 10px 0;
     border-bottom:solid 3px black;
     border-top:solid 3px black;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    gap:8vw;
+    background-color: rgb(44, 44, 44);
+    color:white;
+    padding:20px 0 20px 10px;
 }
 /*EOF*/
 
