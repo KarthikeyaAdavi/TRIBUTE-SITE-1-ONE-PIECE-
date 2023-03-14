@@ -65,7 +65,7 @@ ul{
     box-shadow: 0px 2px 10px black;
     width:100%;
 } 
-a{
+a,a:hover,a:active,a:visited,a:link{
     text-decoration: none;
 }
 
@@ -74,9 +74,7 @@ a{
 /*<--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- >*/
 /*BACKGROUND*/
 body{
-    background-image: url("../IMAGES/INDEX/BG\ repeat.jpg");
-    margin-bottom: 10rem;
-
+    background-image: linear-gradient(to bottom right,skyblue,white);
 }
 .ARTICLE{
 
@@ -84,12 +82,15 @@ body{
     flex-direction: row;
     background-color: #f6f6f6;
     min-width: 500px;
-    margin:5rem 5rem 10rem 5rem;
-    border:dashed 10px red;
-    background-color: #FFD020;
+    margin:-5% 5rem auto 5rem;
+    border:solid 5px rgb(255, 89, 89);
+    background-color: lemonchiffon;
     border-radius: 4px;
     box-shadow: 5px 10px 10px black;    
     margin-bottom: 10rem;
+}
+.ARTICLE:hover,.H-ARTICLE:hover{
+    color:navy;
 }
 .TEXT{
     font-family: 'Courier New', Courier, monospace;
@@ -101,15 +102,18 @@ body{
 
 
 #ARTICLE-IMG {
-    max-width:500px;
-    max-height:1300px;
+    max-width:400px;
+    max-height:400px;
     display: block;
     margin: 3rem 1rem 3rem 3rem;
     box-sizing: border-box;
-    border: solid 5px red;
-    background-color: #000;
-    object-fit: cover;
+    transition: transform .2s;
+    object-fit: contain;
     float:left; 
+}
+#ARTICLE-IMG:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 5px 30px black; 
 }
 #one-piece{
     padding:0;
@@ -122,18 +126,23 @@ body{
     flex-direction: row;
     background-color: #f6f6f6;
     min-width: 500px;
-    margin:5rem 5rem 10rem 5rem;
-    border:dashed 10px red;
-    background-color: #FFD020;
+    margin:5rem 5rem 3rem 5rem;
+    border:solid 5px rgb(255, 89, 89);
+    background-color: lemonchiffon;
     border-radius: 4px;
     box-shadow: 5px 10px 10px black;    
     margin-bottom: 10rem;
 }
 #H-IMG{
    object-fit: contain;
-   height:500px;
-   width:800px;
+   max-height:500px;
+   max-width:800px;
    margin:20px;
+   transition: transform .2s;
    
+}
+#H-IMG:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 5px 30px black;
 }
 

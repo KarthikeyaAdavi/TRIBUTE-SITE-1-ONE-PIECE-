@@ -72,8 +72,7 @@ a{
 /*<--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- >*/
 /*BACKGROUND*/
 body{
-    background-image: url("../IMAGES/INDEX/BG\ repeat.jpg");
-    margin-bottom: 10rem;
+    background-image: linear-gradient(to bottom right,skyblue,white);
 
 }
 /* MAIN PAGE ARTICLE */
@@ -84,8 +83,8 @@ body{
     background-color: #f6f6f6;
     min-width: 500px;
     margin:5rem 10rem 10rem 10rem;
-    border:dashed 10px red;
-    background-color: #FFD020;
+    border:solid 5px rgb(255, 89, 89);
+    background-color: palegoldenrod;
     border-radius: 4px;
     box-shadow: 5px 10px 10px black;    
     margin-bottom: 10rem;
@@ -97,7 +96,7 @@ body{
     height:360px;
     display: block;
     margin: 3rem auto 3rem auto;
-    border: solid 5px red;
+    border: solid 5px rgb(255, 89, 89)  ;
 }
 .TEXT{
     font-family: 'Courier New', Courier, monospace;
