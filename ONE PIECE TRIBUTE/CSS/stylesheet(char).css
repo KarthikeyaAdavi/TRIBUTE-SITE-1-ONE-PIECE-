@@ -122,10 +122,10 @@ body{
     border-top:solid 3px black;
 }
 .H-ARTICLE{
+    overflow: auto;
     display:flex;
     flex-direction: row;
     background-color: #f6f6f6;
-    min-width: 500px;
     margin:5rem 5rem 3rem 5rem;
     border:solid 5px rgb(255, 89, 89);
     background-color: lemonchiffon;
@@ -135,8 +135,8 @@ body{
 }
 #H-IMG{
    object-fit: contain;
-   max-height:500px;
-   max-width:800px;
+   max-height:400px;
+   max-width:300px;
    margin:20px;
    transition: transform .2s;
    
